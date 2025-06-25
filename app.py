@@ -1,7 +1,8 @@
 import streamlit as st
 import requests
 import json
-from src.predict import predict_churn, columns
+from predict import predict_churn, columns
+
 
 st.set_page_config(page_title="Churn Predictor", page_icon="📞", layout="centered")
 
